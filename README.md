@@ -1,7 +1,6 @@
-
 # glkit_bunny
 
-![Tweejump](https://github.com/sakrist/glkit_bunny/blob/master/bunny_screen.png)
+![Tweejump](https://raw.github.com/sakrist/glkit_bunny/master/bunny_screen.png)
 
 Powered by [GLKit][13] framework.
 
