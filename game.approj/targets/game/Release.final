@@ -1,0 +1,192 @@
+{
+    "xcode_project": "game.xcodeproj", 
+    "java_sources": [], 
+    "pchs": [
+        "./game/game-Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "game/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "game/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "game/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "game/en.lproj/VBViewController.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "game/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "game/Shaders/Shader.vsh", 
+            "target": "Shader.vsh"
+        }, 
+        {
+            "asset": "bunny.bin", 
+            "target": "bunny.bin"
+        }, 
+        {
+            "asset": "game/Shaders/Shader.fsh", 
+            "target": "Shader.fsh"
+        }
+    ], 
+    "link_flags": [], 
+    "config": {
+        "FEATURES": [
+            "opengles2", 
+            "portrait"
+        ], 
+        "SHORT_VERSION": "1.0", 
+        "APPLICATION_NAME": "game", 
+        "LONG_VERSION": "1.0", 
+        "APPLICATION_IDENTIFIER": "com.sakrist.game", 
+        "TEMPLATE_VALUES": {
+            "PRODUCT_NAME": "game", 
+            "EXECUTABLE_NAME": "game"
+        }, 
+        "APPLICATION_FULL_NAME": "game"
+    }, 
+    "header_paths": [
+        {
+            "header_path": "game-generated-files.hmap", 
+            "type": "iquote", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "game-own-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "game-all-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "game-project-headers.hmap", 
+            "type": "iquote", 
+            "hmap": {
+                "VBAppDelegate.h": {
+                    "prefix": "game/", 
+                    "suffix": "VBAppDelegate.h", 
+                    "key": "VBAppDelegate.h"
+                }, 
+                "VBViewController.h": {
+                    "prefix": "game/", 
+                    "suffix": "VBViewController.h", 
+                    "key": "VBViewController.h"
+                }, 
+                "game-Prefix.pch": {
+                    "prefix": "game/", 
+                    "suffix": "game-Prefix.pch", 
+                    "key": "game-Prefix.pch"
+                }, 
+                "GLKMathUtils.h": {
+                    "prefix": "./", 
+                    "suffix": "GLKMathUtils.h", 
+                    "key": "GLKMathUtils.h"
+                }
+            }
+        }
+    ], 
+    "modules": [], 
+    "sources": [
+        {
+            "source": "GLKMathUtils.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "GLKMatrix3.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "game/VBAppDelegate.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "game/VBViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "game/main.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }
+    ], 
+    "version": "1", 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fwritable-strings", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "infoplists": [
+        "./game/game-Info.plist"
+    ], 
+    "deps": [
+        "UIKit", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "GLKit", 
+        "OpenGLES"
+    ], 
+    "libs": [], 
+    "java_sourcepaths": [], 
+    "java_res_dirs": [], 
+    "type": "app", 
+    "java_libs": [], 
+    "defines": {
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60100, 
+        "NS_BLOCK_ASSERTIONS": 1
+    }
+}
