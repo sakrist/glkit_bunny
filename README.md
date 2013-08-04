@@ -1,6 +1,6 @@
 # glkit_bunny
 
-![Tweejump](https://raw.github.com/sakrist/glkit_bunny/master/bunny_screen.png)
+<img src="https://raw.github.com/sakrist/glkit_bunny/master/bunny_screen.png" alt="Drawing" style="width: 200px;"/>
 
 Powered by [GLKit][13] framework.
 
